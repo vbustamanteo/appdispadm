@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use yii\db\ActiveQuery;
+
 /**
  * This is the ActiveQuery class for [[Dependencia]].
  *
  * @see Dependencia
  */
-class DependenciaQuery extends \yii\db\ActiveQuery
+class DependenciaQuery extends ActiveQuery
 {
     /*public function active()
     {

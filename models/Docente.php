@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "docente".
@@ -54,7 +56,7 @@ use Yii;
  * @property Dependencia $depICodigo0
  * @property Departamento $deptoICodigo
  */
-class Docente extends \yii\db\ActiveRecord
+class Docente extends ActiveRecord
 {
     /**
      * {@inheritdoc}
@@ -135,7 +137,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDisponibilidads()
     {
@@ -143,7 +145,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDisponibilidads0()
     {
@@ -151,7 +153,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getSemICodigos()
     {
@@ -159,7 +161,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getSemICodigos0()
     {
@@ -167,7 +169,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getSemICodigos1()
     {
@@ -175,7 +177,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getSemICodigos2()
     {
@@ -183,7 +185,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getEstICodigo()
     {
@@ -191,7 +193,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getCatICodigo()
     {
@@ -199,7 +201,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDepICodigo()
     {
@@ -207,7 +209,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getTipoICodigo()
     {
@@ -215,7 +217,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getConICodigo()
     {
@@ -223,7 +225,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDisICodigo()
     {
@@ -231,7 +233,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getCatICodigo0()
     {
@@ -239,7 +241,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getEstICodigo0()
     {
@@ -247,7 +249,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDepICodigo0()
     {
@@ -255,7 +257,7 @@ class Docente extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDeptoICodigo()
     {

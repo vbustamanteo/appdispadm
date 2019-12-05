@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use yii\db\ActiveQuery;
+
 /**
  * This is the ActiveQuery class for [[Distrito]].
  *
  * @see Distrito
  */
-class DistritoQuery extends \yii\db\ActiveQuery
+class DistritoQuery extends ActiveQuery
 {
     /*public function active()
     {

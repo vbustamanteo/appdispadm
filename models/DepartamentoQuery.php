@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use yii\db\ActiveQuery;
+
 /**
  * This is the ActiveQuery class for [[Departamento]].
  *
  * @see Departamento
  */
-class DepartamentoQuery extends \yii\db\ActiveQuery
+class DepartamentoQuery extends ActiveQuery
 {
     /*public function active()
     {

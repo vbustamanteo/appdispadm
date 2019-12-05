@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "distrito".
@@ -12,7 +14,7 @@ use Yii;
  *
  * @property Docente[] $docentes
  */
-class Distrito extends \yii\db\ActiveRecord
+class Distrito extends ActiveRecord
 {
     /**
      * {@inheritdoc}
@@ -47,7 +49,7 @@ class Distrito extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getDocentes()
     {

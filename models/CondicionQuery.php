@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use yii\db\ActiveQuery;
+
 /**
  * This is the ActiveQuery class for [[Condicion]].
  *
  * @see Condicion
  */
-class CondicionQuery extends \yii\db\ActiveQuery
+class CondicionQuery extends ActiveQuery
 {
     /*public function active()
     {

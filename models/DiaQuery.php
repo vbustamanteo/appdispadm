@@ -2,12 +2,14 @@
 
 namespace app\models;
 
+use yii\db\ActiveQuery;
+
 /**
  * This is the ActiveQuery class for [[Dia]].
  *
  * @see Dia
  */
-class DiaQuery extends \yii\db\ActiveQuery
+class DiaQuery extends ActiveQuery
 {
     /*public function active()
     {

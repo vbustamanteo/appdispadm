@@ -1,5 +1,6 @@
 <?php
 
+use app\models\Dependencia;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -18,7 +19,7 @@ use yii\widgets\ActiveForm;
     <!-- <?= $form->field($model, 'dep_iCodigo')->textInput() ?> -->
     <?php $dependenciaArray =
         ArrayHelper::map(
-                \app\models\Dependencia::find()->orderBy('dep_vcNombre')->all(),
+                Dependencia::find()->orderBy('dep_vcNombre')->all(),
                 'dep_iCodigo',
                 'dep_vcNombre'
         )

@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "dia".
@@ -12,7 +14,7 @@ use Yii;
  *
  * @property SemestreDisponibilidad[] $semestreDisponibilidads
  */
-class Dia extends \yii\db\ActiveRecord
+class Dia extends ActiveRecord
 {
     /**
      * {@inheritdoc}
@@ -48,7 +50,7 @@ class Dia extends \yii\db\ActiveRecord
     }
 
     /**
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getSemestreDisponibilidads()
     {
